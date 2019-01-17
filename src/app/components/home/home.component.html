@@ -1,0 +1,9 @@
+<p>
+  home works!
+</p>
+
+<h3 *ngFor="let account of (accounts | async).accounts; let i = index">
+  {{account.brokerSessionToken}}
+</h3>
+
+<app-edit></app-edit>
